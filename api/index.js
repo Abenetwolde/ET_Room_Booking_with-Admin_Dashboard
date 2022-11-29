@@ -7,7 +7,9 @@ import hotelsRoute from "./routes/hotels.js";
 import roomsRoute from "./routes/rooms.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-
+/* MONGO = mongodb+srv://social:80110847@cluster0.hz4ojpx.mongodb.net/?retryWrites=true&w=majority
+JWT = 8hEnPGeoBqGUT6zksxt4G95gW+uMdzwe7EVaRnp0xRI=
+ */
 const app = express();
 dotenv.config();
 
